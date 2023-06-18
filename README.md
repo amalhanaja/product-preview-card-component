@@ -48,13 +48,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-1. Define Styleguide as variable in CSS (color, font, typography)
-2. Slicing UI into HTML Structure
+1. Slicing UI into HTML Structure
    - Card (<main>)
      - Image (<figure>)
        - <img>
      - Content (<section>)
-       - Caption (<h2>)
+       - Overline (<h2>)
        - Title (<h1>)
        - Description (<p>)
        - Price Section (<section>)
@@ -63,6 +62,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
        - Button (<button>)
          - Icon (<img>)
          - Text ()
+2. Define Styleguide as variable in CSS (color, font, typography)
 3. Styling using CSS
 
 ### Built with
