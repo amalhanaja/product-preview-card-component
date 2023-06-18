@@ -81,7 +81,7 @@ button {
   background-color: var(--dark-cyan);
   color: var(--white);
   font-weight: 700;
-  display: flex;;
+  display: flex;
   align-items: center;
   justify-content: center;
   border: none;
@@ -89,6 +89,35 @@ button {
 }
 
 button > img {
-    margin-right: 0.857em;
-    padding: 1.071em 0;
+  margin-right: 0.857em;
+  padding: 1.071em 0;
+}
+
+@media screen and (min-width: 1008px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 600px;
+    max-height: 450px;
+  }
+
+  figure > img {
+    content: url("images/image-product-desktop.jpg");
+    height: 100%;
+  }
+
+  .content {
+    padding: 2.286em;
+  }
+
+  h1 {
+    margin-top: 1.429rem;
+  }
+  p {
+    margin-top: 1.714em;
+  }
+  .price-section,
+  button {
+    margin-top: 2.143em;
+  }
 }
